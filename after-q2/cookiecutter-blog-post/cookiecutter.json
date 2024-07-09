@@ -1,0 +1,7 @@
+{
+    "title": "Awesome Article",
+    "slug": "{{ cookiecutter.title|lower|replace(' ','-')}}",
+    "module_name": "explore_{{ cookiecutter.slug|replace('-','_')}}",
+    "reference_docs": "",
+    "howto_docs": ""
+}
